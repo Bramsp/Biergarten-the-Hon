@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Biergarten the Hon</title>
+    <link href='./Biergarten_The_Hon.html' type='text/css' rel='stylesheet'>
   </head>
   <body>
     <header>
@@ -16,43 +17,51 @@
         <li><a href='#evenementen'>Evenementen</a></li>
         <li><a href='#contact'>Contact</a></li>
     </nav>
-    <div id='evenementen'>
-      <h3>Evenementen</h3>
-      <table>
-        <thead>
+    <main>
+      <div id='evenementen'>
+        <h3>Evenementen</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Evenementen</th>
+            </tr>
+          </thead>
           <tr>
-            <th>Date</th>
-            <th>Evenementen</th>
-          </tr>
-        </thead>
-        <tr>
-          <td>16 April 2020</td>
-          <td>Grand Opening</td>
-      </table>
-    </div>
-    <div id='contact'>
-      <form>
-    		<h3>Stay up to date!</h3>
-        <h5>Vul onderstaand formulier in om op de hoogte te blijven van de
-          laatste updates</h5>
-        <label for='name'>Name:</lable>
-        <input type='text' name='name' value='enter name' required
-        maxlength="30">
+            <td>16 April 2020</td>
+            <td>Grand Opening</td>
+        </table>
+      </div>
+      <div id='contact'>
+        <form>
+      		<h3>Stay up to date!</h3>
+          <h5>Vul onderstaand formulier in om op de hoogte te blijven van de
+            laatste updates</h5>
+          <label for='name'>Name:</lable>
+          <input type='text' name='name' value='enter name' required
+          maxlength="30">
+          <br>
+          <label for='email'>Email address:</label>
+      		<input type='text' name="email" value="enter email" required
+          maxlength="30">
+          <br>
+          <input type='submit' value='Verzenden'>
+        </form>
+      </div>
+      <div id="media">
+        <h3>Media</h3>
+        <img src="./IMG_3686.JPG" alt="Bouwtekeningen" width="200" height="300"/>
+        <figcaption>De originele bouwtekening</figcaption>
         <br>
-        <label for='email'>Email address:</label>
-    		<input type='text' name="email" value="enter email" required
-        maxlength="30">
-        <br>
-        <input type='submit' value='Verzenden'>
-      </form>
-    </div>
-    <div id="media">
-      <h3>Media</h3>
-      <img src="./IMG_3686.JPG" alt="Bouwtekeningen" width="200" height="350"/>
-      <br>
-      <video src="./recorded27.MP4" width="620" height="540" controls>
-     Video not supported
-      </video>
-    </div>
+        <video src="./recorded27.MP4" width="620" height="540" controls>
+       Video not supported
+        </video>
+      </div>
+    </main>
+    <footer>
+      <p><strong>Neem gerust contact met ons op via:</strong></p>
+      <p>Email: <a>thehon@home.nl</a></p>
+      <p>Telefoon: <a>010-987654321</a></p>
+    </footer>
   </body>
 </html>
