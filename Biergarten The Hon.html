@@ -4,24 +4,48 @@
     <title>Biergarten the Hon</title>
   </head>
   <body>
-    <div id='title'>
+    <header>
       <h1>Biergarten the Hon</h1>
-    </div>
+    </header>
     <div id='intro'>
       <p>Welkom op de website van Biergarten the Hon</p>
     </div>
-    <div id='formulier'>
+    <nav>
+      <ul>
+        <li><a href='#home'>Home</a></li>
+        <li><a href='#evenementen'>Evenementen</a></li>
+        <li><a href='#contact'>Contact</a></li>
+    </nav>
+    <div id='evenementen'>
+      <h3>Evenementen</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Evenement</th>
+          </tr>
+        </thead>
+        <tr>
+          <td></td>
+          <td></td>
+      </table>
+    </div>
+    <div id='contact'>
       <form>
     		<h3>Stay up to date!</h3>
-        <h5>Vul onderstaand formulier in om op de hoogte te blijven van de laatste updates</h5>
+        <h5>Vul onderstaand formulier in om op de hoogte te blijven van de
+          laatste updates</h5>
         <label for='name'>Name:</lable>
-        <input type='text' name='name' value='enter name'>
+        <input type='text' name='name' value='enter name' required
+        maxlength="30">
         <br>
         <label for='email'>Email address:</label>
-    		<input type='text' name="email" value="enter email">
+    		<input type='text' name="email" value="enter email" required
+        maxlength="30">
         <br>
         <input type='submit' value='Verzenden'>
       </form>
     </div>
   </body>
 </html>
+
