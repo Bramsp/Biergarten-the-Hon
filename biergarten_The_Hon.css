@@ -89,3 +89,16 @@ li {
   padding: 20px 18px 10px 18px;
   text-transform: uppercase;
 }
+
+figcaption {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+}
