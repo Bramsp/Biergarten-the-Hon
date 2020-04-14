@@ -1,4 +1,11 @@
 p {
-  font-size: 40px;
+  font-size: 12px;
   font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+body {
+  background-color: #e8c974;
 }
